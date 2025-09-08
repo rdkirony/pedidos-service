@@ -129,6 +129,7 @@ docker compose up -d mysql
 ### 2. Rodar aplicação
 
 ```
+  mvn clean package -DskipTests
 ./mvnw spring-boot:run ou mvn spring-boot:run
 ```
 
