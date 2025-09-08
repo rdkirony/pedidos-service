@@ -105,8 +105,18 @@ services:
 volumes:
   mysql_data:
 ```
+## ⚙️ Variáveis de do banco MYSQL
+
+```env
+MYSQL_ROOT_PASSWORD=supersegredo
+MYSQL_DATABASE=pedidos
+MYSQL_USER=pedidos
+MYSQL_PASSWORD=pedidos
+TZ=America/Sao_Paulo
+```
 
 ---
+
 
 ## ▶️ Executando Localmente (Maven)
 

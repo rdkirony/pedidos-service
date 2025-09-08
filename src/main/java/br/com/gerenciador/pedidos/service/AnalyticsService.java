@@ -5,7 +5,6 @@ import br.com.gerenciador.pedidos.core.records.output.MonthlyRevenueOutput;
 import br.com.gerenciador.pedidos.core.records.output.TopBuyerOutput;
 import br.com.gerenciador.pedidos.enums.OrderStatus;
 import br.com.gerenciador.pedidos.repositories.OrderRepository;
-import br.com.gerenciador.pedidos.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;

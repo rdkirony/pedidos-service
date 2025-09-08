@@ -28,21 +28,6 @@ public class SecurityConfig {
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
 
 
-
-    // Endpoints públicos (sem auth)
-    private static final String[] PUBLIC = {
-            "/swagger-ui/**", "/v3/api-docs*/**",
-            "/api/user/register/**", "/api/auth/login/**"
-    };
-
-    // Endpoints que o USER pode acessar (além do ADMIN)
-    // Troque pelos seus caminhos reais
-    private static final String[] USER_ALLOWED = {
-            "/api/product/register",
-            "/api/product/update/*"
-    };
-
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
